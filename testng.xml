@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Acttime application">
+
+
+
+<listeners>
+<listener class-name="com.acttime.qa.extentreportlistner.Extentreportlistner"/>
+</listeners>
+
+
+
+  <test name="Free crm app test">  
+  <classes>
+  <class  name="com.acttime.qa.testcases.Loginpagetest"/>
+   <class  name="com.acttime.qa.testcases.Customerpagetest"/>
+  <class  name="com.acttime.qa.testcases.Createcust"/>
+  <class  name="com.acttime.qa.testcases.Taskstest"/>
+
+  </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
