@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.acttime.qa.testcases.Createcust">
+      <class name="com.acttime.qa.testcases.Loginpagetest">
         <methods>
-          <include name="createcustomer"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.acttime.qa.testcases.Createcust -->
+      </class> <!-- com.acttime.qa.testcases.Loginpagetest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

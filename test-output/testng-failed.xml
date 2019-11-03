@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Acttime application]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.acttime.qa.extentreportlistner.Extentreportlistner"/>
-  </listeners>
-  <test thread-count="5" name="Free crm app test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.acttime.qa.testcases.Createcust">
+      <class name="com.acttime.qa.testcases.Loginpagetest">
         <methods>
-          <include name="createcustomer"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.acttime.qa.testcases.Createcust -->
+      </class> <!-- com.acttime.qa.testcases.Loginpagetest -->
     </classes>
-  </test> <!-- Free crm app test(failed) -->
-</suite> <!-- Failed suite [Acttime application] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
